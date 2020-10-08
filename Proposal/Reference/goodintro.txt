@@ -1,0 +1,12 @@
+@ARTICLE{6516678, 
+author={O. {Sarbishei} and K. {Radecka}}, 
+journal={IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems}, 
+title={On the Fixed-Point Accuracy Analysis and Optimization of Polynomial Specifications}, 
+year={2013}, 
+volume={32}, 
+number={6}, 
+pages={831-844}, 
+keywords={data flow graphs;fixed point arithmetic;mean square error methods;optimisation;fixed point accuracy analysis;polynomial specifications;polynomial data flow graphs;reference model;digital signal processing;precision analysis;fixed point variables;constant coefficients;maximum mismatch;mean square error;signal-to-quantization-noise ratio;SQNR;Quantization (signal);Polynomials;Optimization;Integrated circuit modeling;Digital signal processing;Accuracy;Algorithm design and analysis;Fixed-point designs;polynomial specifications;precision analysis;range analysis;word-length optimization}, 
+doi={10.1109/TCAD.2013.2238290}, 
+ISSN={0278-0070}, 
+month={June},}

@@ -1,0 +1,12 @@
+@INPROCEEDINGS{6839731, 
+author={M. X. {Nguyen} and A. {Dinh-Duc}}, 
+booktitle={2014 11th International Conference on Electrical Engineering/Electronics, Computer, Telecommunications and Information Technology (ECTI-CON)}, 
+title={Hardware-based algorithm for Sine and Cosine computations using fixed point processor}, 
+year={2014}, 
+volume={}, 
+number={}, 
+pages={1-6}, 
+keywords={adders;fixed point arithmetic;multiplying circuits;table lookup;hardware-based algorithm;cosine computation;fixed point processor;cosine function;fixed point multiplier;fixed point adder;table lookup method;floating point units;fixed point format;ModelSim-Altera software;Approximation algorithms;Registers;Table lookup;Polynomials;Approximation methods;Accuracy;Hardware;Table-base algorithm;Polynomial Approximation algorithm;trigonometric functions;sine cosine functions;fixed point computing;digital arithmetic hardware}, 
+doi={10.1109/ECTICon.2014.6839731}, 
+ISSN={}, 
+month={May},}

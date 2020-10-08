@@ -1,0 +1,12 @@
+@ARTICLE{5995137, 
+author={J. {Janhunen} and T. {Pitkanen} and O. {Silven} and M. {Juntti}}, 
+journal={IEEE Journal of Selected Topics in Signal Processing}, 
+title={Fixed- and Floating-Point Processor Comparison for MIMO-OFDM Detector}, 
+year={2011}, 
+volume={5}, 
+number={8}, 
+pages={1588-1598}, 
+keywords={3G mobile communication;cognitive radio;floating point arithmetic;Long Term Evolution;MIMO communication;OFDM modulation;software radio;fixed-point processor;floating-point processor;MIMO-OFDM detector;software-defined radio technology;cognitive radio;baseband processing resource;hardware complexity;energy dissipation;programmable processor architecture;transport triggered architecture;selective spanning;multiple-input multiple-output orthogonal frequency division multiplexing;3G LTE system;power efficiency;fixed-point design;floating-point arithmetic;Detectors;Fixed-point arithmetic;Floating-point arithmetic;MIMO;OFDM;Signal processing algorithms;Fixed-point arithmetic;floating-point arithmetic;multiple-input multiple-output (MIMO);software-defined radio (SDR);transport triggered architecture (TTA)}, 
+doi={10.1109/JSTSP.2011.2165830}, 
+ISSN={1932-4553}, 
+month={Dec},}

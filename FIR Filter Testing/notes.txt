@@ -1,0 +1,26 @@
+using fircls on MATLAB for generating a sample FIR filter
+
+you have to give it:
+number of taps (n)
+transition freqs (f)
+amplitudes in each freq band (a)
+up and lo freq response limits in each band
+
+it gives you:
+the coeffs of the filter
+
+how to test FIR filter implementation (this can be the way to compare the fixed point versions with each other? hopefully)
+
+1. impulse test
+	one "1" followed by at least N-1 "0"
+2. step test
+	at least N "1"
+3. Sine test
+	test different freq passing through filter
+
+
+
+approaches that I can think of right now:
+
+1. implement the test sin wave for testing myself? (time consuming and not scalable)
+2. is it possible to write a program on LabVIEW to control a wave generator and get the sin waves with desired frequencies with the pace I need for each loop of my simulation?!

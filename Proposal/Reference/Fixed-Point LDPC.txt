@@ -1,0 +1,12 @@
+@INPROCEEDINGS{4813725, 
+author={J. {Hung} and S. {Chen}}, 
+booktitle={2008 2nd International Conference on Signal Processing and Communication Systems}, 
+title={A low-complexity high-performance decoding algorithm for fixed-point LDPC decoders}, 
+year={2008}, 
+volume={}, 
+number={}, 
+pages={1-5}, 
+keywords={parity check codes;quantisation (signal);decoding algorithm;fixed-point LDPC decoders;quantization errors;rounding errors;min-sum algorithm;CMVP algorithm;Decoding;Parity check codes;Hardware;Sparse matrices;Costs;Equations;Bit error rate;Degradation;Quantization;Roundoff errors}, 
+doi={10.1109/ICSPCS.2008.4813725}, 
+ISSN={}, 
+month={Dec},}
