@@ -1,4 +1,6 @@
 clear all
+format long
+
 %order of the filter
 n = 150;
 %transition Frequencies
@@ -10,24 +12,15 @@ up = [1.02 0.01];
 lo = [0.98 -0.01];
 
 b = fircls(n, f, a, up, lo, 'both');
-dlmwrite ("coeff.txt", b,'delimiter','\n');
+writematrix (b, "coeff_integer.txt");
 
-lpFilter = dsp.FIRFilter('Numerator',b);
+% we want to change the format from decimal to (1,31,32) binary
 
-lpFilter.CoefficientsDataType='Custom';
-lpFilter.CustomCoefficientsDataType=numerictype(1,14,13);
-lpFilter.OutputDataType='Same as Accumulator';
-lpFilter.ProductDataType='Full precision';
-lpFilter.AccumulatorDataType='Full precision';
+factor = 2^32; % the number fractional bits
 
-x = chirp(0:199,0,199,0.4);
+b_factor = b * factor;
 
-lpcoeffs = lpFilter.Numerator;            % store original lowpass coefficients
-y1 = lpFilter(fi(x,1,14,13).');           % filter the signal
+b_bin = dec2bin (b_factor, 64);
 
+writematrix (b_bin, "coeff_binary.txt");
 
-lpFilter.Numerator = lpcoeffs;            % restore original lowpass coefficients
-
-figure
-plot(y1,x);
-xlabel('Time [samples]');ylabel('Amplitude'); title('Input Stimulus');
