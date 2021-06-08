@@ -1,0 +1,5 @@
+MATLAB Fixed-Point Designer tool:
+
+data type for optimizing and implementing fixed-point and floating-point algorithms 
+
+target-aware simulation that is bit-true for fixed-point

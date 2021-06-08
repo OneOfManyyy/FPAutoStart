@@ -1,0 +1,20 @@
+Notes From the Thesis
+
+One of the first and major decisions is the choice of the arithmetic operators used to implement the algorithms,which has a large impact on the cost-performance trade-off. Floating-point and
+fixed-point operators are two popular choices available for the implementation of all arithmetic operations. Fixed-point arithmetic operators are known to take significantly less area, shorter
+latency and to consume less power. Implementation of telecommunication algorithms usually have rigorous performance parameters to be achieved and demand high computational power. In such cases, using fixed-point arithmetic allows satisfying such constraints thanks to its ability in manipulating data with lower word-length compared to floating-point arithmetic.
+
+
+The floating-point to fixed-point conversion process is an optimization problem[10] which derives the data word-length. This process explores the trade-off between the cost and the application quality degradation due to the limited bit-width of fixed-point data types. Moreover,it has been shown that the conversion process can take up to 30% of the total development time[11, 12].
+
+Thus, an automatic floating-point to fixed-point conversion tool is essential to efficiently optimize the implementation cost while satisfying the performance constraints in the shortest possible time.
+
+The conversion process consists of two parts corresponding to the determination of the integer part word-length and the fractional part word-length. To reduce the complexity of the conversion, the determination of the integer part and the fractional part word-lengths are handled separately. The integer word-length(IWL) optimization is based on determining the data dynamic range while fractional word-length(FWL) optimization consists of the numerical accuracy analysis. The limited integer and fractional bit-width of the fixed-point data types will introduce an overflow occurrence and quantization error respectively which generate a degradation of the application quality.
+
+
+
+Most digital signal processing algorithms manipulated at are presenting real numbers. The design of signal processing algorithms rather uses floating-point arithmetic because of its development simplicity and its good numerical properties. However,for numerous embedded systems, fixed-point arithmetic is preferred because of its higher benefit in terms of power consumption, area and architecture latency.Thus, a conversion from floating-point to fixed-point is required before the hardware implementation of the algorithm. This chapter first presents and compares fixed-point and floating-point arithmetic.Then,the steps of the conversion process and the existing fixed-point conversion methods are detailed. Especially,existing techniques for dynamic range and accuracy evaluation are presented. Finally,the fixed-point design environment ID. Fix is described.
+
+
+
+

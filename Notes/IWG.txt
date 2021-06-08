@@ -1,0 +1,13 @@
+Fixed point conversion:
+	Steps:
+		Levelization
+			Breaking the complex expressions into single operator form : translation of expressions into polynomial approximation terms
+		Scalarization
+			Breaking vector operations into sets of scalar operations
+		Computation of the ranges of variables
+			-set MAX and MIN  for the inputs
+			-sweep through the inputs and find the MAX and MIN for all the intermediate variables
+			-calculate the number of bits needed to represent the integer part of each variable
+		Generation of the fixed point MATLAB code
+			-this is translated to the effort for designing width configurable modules on hardware
+		

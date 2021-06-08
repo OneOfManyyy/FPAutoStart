@@ -1,0 +1,12 @@
+@ARTICLE{6179319, 
+author={R. {Rocher} and D. {Menard} and P. {Scalart} and O. {Sentieys}}, 
+journal={IEEE Transactions on Circuits and Systems I: Regular Papers}, 
+title={Analytical Approach for Numerical Accuracy Estimation of Fixed-Point Systems Based on Smooth Operations}, 
+year={2012}, 
+volume={59}, 
+number={10}, 
+pages={2326-2339}, 
+keywords={embedded systems;fixed point arithmetic;least mean squares methods;analytical approach;numerical accuracy estimation;fixed-point systems;smooth operations;embedded systems;fixed-point arithmetic;fixed-point representations;mathematical expression;system output noise power;time-varying impulse-response;linear prediction approach;time-varying recursive systems;least mean square algorithm;fixed-point accuracy estimation;linear-prediction approximation;Noise;Quantization;Accuracy;Mathematical model;Numerical models;Vectors;Object oriented modeling;Accuracy evaluation;adaptive filters;fixed-point arithmetic;quantization noises}, 
+doi={10.1109/TCSI.2012.2188938}, 
+ISSN={1549-8328}, 
+month={Oct},}

@@ -1,0 +1,12 @@
+@INPROCEEDINGS{7160175, 
+author={B. D. {Beheshti}}, 
+booktitle={2015 Long Island Systems, Applications and Technology}, 
+title={Fixed point performance of interpolation/extrapolation algorithms for resource constrained wireless sensors}, 
+year={2015}, 
+volume={}, 
+number={}, 
+pages={1-4}, 
+keywords={extrapolation;fixed point arithmetic;floating point arithmetic;interpolation;wireless sensor networks;floating point arithmetic;energy demand reduction;sleep cycle;battery life;date collection;resource constrained wireless sensor network;extrapolation algorithm fixed point performance;Neville interpolation algorithm fixed point performance;Interpolation;Polynomials;Fixed-point arithmetic;Sensors;Accuracy;Wireless sensor networks;Quantization (signal);fixed point;interpolation;WSN;DSP}, 
+doi={10.1109/LISAT.2015.7160175}, 
+ISSN={}, 
+month={May},}

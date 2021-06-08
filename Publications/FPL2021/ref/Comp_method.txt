@@ -1,0 +1,4 @@
+L. S. Rosa, C. F. M. Toledo and V. Bonato, "Accelerating floating-point to fixed-point data type conversion with evolutionary algorithms," in Electronics Letters, vol. 51, no. 3, pp. 244-246, 5 2 2015.
+doi: 10.1049/el.2014.3791
+keywords: {evolutionary computation;floating point arithmetic;mobile robots;evolutionary algorithms;data type representation;maximum clock frequency;power consumption;combinatorial optimisation problem;accumulative arithmetic computation error;floating-point to fixed-point data type conversion;mobile robotic scenario},
+URL: http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7029829&isnumber=7029763

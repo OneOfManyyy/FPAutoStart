@@ -1,0 +1,12 @@
+@INPROCEEDINGS{5222868, 
+author={L. {Zhang} and Y. {Zhang} and W. {Zhou}}, 
+booktitle={2009 Eighth IEEE/ACIS International Conference on Computer and Information Science}, 
+title={Floating-point to Fixed-point Transformation Using Extreme Value Theory}, 
+year={2009}, 
+volume={}, 
+number={}, 
+pages={271-276}, 
+keywords={digital signal processing chips;fixed point arithmetic;fixed-point transformation;floating-point transformation;extreme value theory;digital signal processing;communication algorithms;fixed-point arithmetic;optimal integer;fractional bit-widths;lightweight simulations;Signal processing algorithms;Floating-point arithmetic;Signal analysis;Digital signal processing;Fixed-point arithmetic;Hardware;High level synthesis;Constraint theory;Dynamic range;Information science;High-level synthesis;floating-point to fixed-point transformation;bit-width optimization;Extreme Value Theory}, 
+doi={10.1109/ICIS.2009.38}, 
+ISSN={}, 
+month={June},}
